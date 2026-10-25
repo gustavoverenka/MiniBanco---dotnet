@@ -4,8 +4,8 @@ using MiniBanco.ConsoleApp.Exceptions;
 
 public abstract class Conta
 {
-    public string Titular { get; set; }
-    public int Numero { get; set; }
+    public string Titular { get; }
+    public int Numero { get; }
     public decimal Saldo { get; protected set; }
     public List<Transacao> Extrato { get; }
 
@@ -13,17 +13,17 @@ public abstract class Conta
     {
         if (string.IsNullOrWhiteSpace(titular))
         {
-            throw new ArgumentException("O titular da conta não pode ser nulo ou vazio.", nameof(titular));
+            throw new ArgumentException("O titular nao pode ser vazio.", nameof(titular));
         }
 
         if (numero <= 0)
         {
-            throw new ArgumentException("O número da conta deve ser maior que zero.", nameof(numero));
+            throw new ArgumentException("O numero da conta deve ser positivo.", nameof(numero));
         }
 
         if (saldoInicial < 0)
         {
-            throw new ArgumentException("O saldo inicial não pode ser negativo.", nameof(saldoInicial));
+            throw new ArgumentException("O saldo inicial nao pode ser negativo.", nameof(saldoInicial));
         }
 
         this.Titular = titular;
@@ -42,14 +42,14 @@ public abstract class Conta
     {
         if (valor <= 0)
         {
-            throw new ArgumentException("O valor do depósito deve ser maior que zero.", nameof(valor));
+            throw new ArgumentException("O valor do deposito deve ser maior que zero.", nameof(valor));
         }
 
         this.Saldo += valor;
         this.RegistrarTransacao(descricao, "Deposito", valor);
     }
 
-    public virtual void Saca(decimal valor)
+    public virtual void Sacar(decimal valor)
     {
         if (valor <= 0)
         {
@@ -58,7 +58,7 @@ public abstract class Conta
 
         if (this.Saldo < valor)
         {
-            throw new ArgumentException("Saldo insuficiente para realizar o saque.", nameof(valor));
+            throw new SaldoInsuficienteException($"Saldo insuficiente para saque de R$ {valor:F2}. Saldo atual: R$ {this.Saldo:F2}.");
         }
 
         this.Saldo -= valor;
@@ -69,7 +69,6 @@ public abstract class Conta
     {
         
     }
-
 
     public abstract string ObterTipoFormatado();
     public abstract string ObterResumoAtributoEspecifico();
