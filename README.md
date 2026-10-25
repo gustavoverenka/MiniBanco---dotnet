@@ -156,22 +156,20 @@ $$\text{Índice de Saúde (\%)} = \left( \frac{\text{Pontuação Obtida}}{\text{
 
 ```txt
 minibanco-dotnet/
-├── src/
-│   └── MiniBanco.ConsoleApp/
-│       ├── Exceptions/
-│       │   └── SaldoInsuficienteException.cs    # Exceção de domínio para regras de saque
-│       ├── Models/
-│       │   ├── Conta.cs                         # Classe base abstrata com encapsulamento de saldo
-│       │   ├── ContaCorrente.cs                 # Subclasse com cheque especial e tarifa
-│       │   ├── ContaPoupanca.cs                 # Subclasse com taxa de rendimento e aniversário
-│       │   ├── ContaSalario.cs                  # Subclasse com empregador e franquia de saques
-│       │   └── Transacao.cs                     # Modelo imutável de movimentação financeira
-│       ├── Services/
-│       │   └── MotorAnalise.cs                  # Motor de pontuação, saúde e geração de relatórios
-│       ├── MiniBanco.ConsoleApp.csproj          # Configurações do projeto e runtime .NET
-│       └── Program.cs                           # Menu interativo, fluxo de console e try/catch
-├── .gitignore                                   # Exclusão de artefatos de compilação (bin/obj)
-└── README.md                                    # Documentação técnica e guia do projeto
+├── Exceptions/
+│   └── SaldoInsuficienteException.cs    # Exceção de domínio para regras de saque
+├── Models/
+│   ├── Conta.cs                         # Classe base abstrata com encapsulamento de saldo
+│   ├── ContaCorrente.cs                 # Subclasse com cheque especial e tarifa
+│   ├── ContaPoupanca.cs                 # Subclasse com taxa de rendimento e aniversário
+│   ├── ContaSalario.cs                  # Subclasse com empregador e franquia de saques
+│   └── Transacao.cs                     # Modelo imutável de movimentação financeira
+├── Services/
+│   └── MotorAnalise.cs                  # Motor de pontuação, saúde e geração de relatórios
+├── .gitignore                           # Exclusão de artefatos de compilação (bin/obj)
+├── MiniBanco.ConsoleApp.csproj          # Configurações do projeto e runtime .NET
+├── Program.cs                           # Menu interativo, fluxo de console e try/catch
+└── README.md                            # Documentação técnica e guia do projeto
 ```
 
 <div align="center">
@@ -192,20 +190,20 @@ minibanco-dotnet/
 **1 · Clonar o repositório**
 
 ```bash
-git clone https://github.com/SEU_USUARIO/minibanco-dotnet.git
-cd minibanco-dotnet
+git clone https://github.com/gustavoverenka/MiniBanco---dotnet.git
+cd MiniBanco---dotnet
 ```
 
 **2 · Restaurar dependências e compilar a solução**
 
 ```bash
-dotnet build src/MiniBanco.ConsoleApp/MiniBanco.ConsoleApp.csproj
+dotnet build
 ```
 
 **3 · Executar a aplicação via terminal**
 
 ```bash
-dotnet run --project src/MiniBanco.ConsoleApp/MiniBanco.ConsoleApp.csproj
+dotnet run
 ```
 
 <div align="center">

@@ -1,0 +1,23 @@
+## Visual Studio / .NET Core / C#
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code / Rider
+.vscode/
+.idea/
+
+# Dotnet build artifacts
+*.dll
+*.pdb
+*.exe
+project.lock.json
+.vs/
