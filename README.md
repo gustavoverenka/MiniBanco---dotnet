@@ -30,19 +30,6 @@ Projeto concebido com foco estrito em **Programação Orientada a Objetos (POO)*
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
-</div>
-
-## ⎡ VIDEO DEMONSTRATION ⎦
-
-> 📹 **Demonstração em Vídeo (Até 5 minutos):**
-> 
-> Assista à apresentação detalhada do funcionamento no terminal, arquitetura de POO e decisões técnicas:
-> 
-> 🔗 **[Clique aqui para assistir ao vídeo no Google Drive / YouTube](#)** *(substitua por seu link)*
-
-<div align="center">
-
-▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 </div>
 
