@@ -1,0 +1,14 @@
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\bin\Debug\net10.0\MiniBanco.ConsoleApp.exe
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\bin\Debug\net10.0\MiniBanco.ConsoleApp.deps.json
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\bin\Debug\net10.0\MiniBanco.ConsoleApp.runtimeconfig.json
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\bin\Debug\net10.0\MiniBanco.ConsoleApp.dll
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\bin\Debug\net10.0\MiniBanco.ConsoleApp.pdb
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\obj\Debug\net10.0\MiniBanco.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\obj\Debug\net10.0\MiniBanco.ConsoleApp.AssemblyInfoInputs.cache
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\obj\Debug\net10.0\MiniBanco.ConsoleApp.AssemblyInfo.cs
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\obj\Debug\net10.0\MiniBanco.ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\obj\Debug\net10.0\MiniBanco.ConsoleApp.dll
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\obj\Debug\net10.0\refint\MiniBanco.ConsoleApp.dll
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\obj\Debug\net10.0\MiniBanco.ConsoleApp.pdb
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\obj\Debug\net10.0\MiniBanco.ConsoleApp.genruntimeconfig.cache
+D:\Projetos Sctech\minibanco-dotnet\src\MiniBanco.ConsoleApp\obj\Debug\net10.0\ref\MiniBanco.ConsoleApp.dll
